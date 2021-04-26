@@ -388,7 +388,7 @@ public class Differential_Evolution extends JPanel
 		int func=1,de_var=1;
 		String value1=var.getSelectedItem().toString();
 		String value2=fun.getSelectedItem().toString();
-		
+		System.out.println("Calculating ...")
 		
 		
 		switch(value1)
